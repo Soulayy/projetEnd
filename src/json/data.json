@@ -1,0 +1,65 @@
+{
+    "jeux": [
+      {
+        "titre": "Starfield",
+        "plateforme": ["Xbox Series X", "PC"],
+        "date_sortie": "2024-04-30",
+        "genre": ["RPG", "Science-Fiction"]
+      },
+      {
+        "titre": "Horizon Forbidden West",
+        "plateforme": ["PS5"],
+        "date_sortie": "2024-05-15",
+        "genre": ["Action-Aventure"]
+      },
+      {
+        "titre": "Metroid Prime 4",
+        "plateforme": ["Nintendo Switch"],
+        "date_sortie": "2024-06-20",
+        "genre": ["Action-Aventure", "Science-Fiction"]
+      },
+      {
+        "titre": "Fable IV",
+        "plateforme": ["Xbox Series X", "PC"],
+        "date_sortie": "2024-07-30",
+        "genre": ["Action-RPG", "Fantasy"]
+      },
+      {
+        "titre": "The Witcher 4: Vengeance",
+        "plateforme": ["PS5", "PC"],
+        "date_sortie": "2024-08-10",
+        "genre": ["Action-RPG", "Fantasy"]
+      },
+      {
+        "titre": "Breath of Fire VI: Awakening",
+        "plateforme": ["PS5", "PC"],
+        "date_sortie": "2024-09-05",
+        "genre": ["RPG", "Fantasy"]
+      },
+      {
+        "titre": "Dead Space: Resurgence",
+        "plateforme": ["PS5", "Xbox Series X", "PC"],
+        "date_sortie": "2024-10-20",
+        "genre": ["Horreur", "Science-Fiction"]
+      },
+      {
+        "titre": "Silent Hill: Rebirth",
+        "plateforme": ["PS5", "PC"],
+        "date_sortie": "2024-11-10",
+        "genre": ["Survival Horror"]
+      },
+      {
+        "titre": "Red Dead Redemption III",
+        "plateforme": ["PS5", "Xbox Series X", "PC"],
+        "date_sortie": "2024-12-01",
+        "genre": ["Action-Aventure", "Western"]
+      },
+      {
+        "titre": "Beyond Good & Evil 2",
+        "plateforme": ["PS5", "Xbox Series X", "PC"],
+        "date_sortie": "2024-12-20",
+        "genre": ["Action-Aventure", "Science-Fiction"]
+      }
+    ]
+  }
+  

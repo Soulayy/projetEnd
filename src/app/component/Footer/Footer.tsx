@@ -6,7 +6,7 @@ import Logo from "./../../../../public/image/Soul-mate-Logo.png"
 const Footer = () => {
 
   return (
-    <div className="footer bg-no-repeat h-[680px] w-[100%] flex-col flex justify-center items-center bg-[#2A2826]">
+    <div className="footer bg-no-repeat h-[690px] w-[100%] flex-col flex justify-center items-center ">
         <br />
         <br />
         <div className="w-[20%] h-[100%] flex justify-center items-center">

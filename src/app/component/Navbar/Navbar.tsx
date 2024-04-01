@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="w-[50%] h-[50%] flex justify-around items-center text-center">
             <Link className="btn" href={"/"}>Home</Link>
             <Link className="btn" href={"/Games"}>Jeux</Link>
-            <Link className="btn" href={""} > Prochaines Sorties</Link>
+            <Link className="btn" href={"/prochainessorties"} > Prochaines Sorties</Link>
             <Link className="btn" href={""} > About us</Link>
         </div>
         <div className="w-[20%] flex justify-center items-center bg-purple-500">
