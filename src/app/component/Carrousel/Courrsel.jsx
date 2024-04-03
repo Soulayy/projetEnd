@@ -29,21 +29,22 @@ export default function Courrsel() {
     }, [index])
 
   return (
-
-    <div className=' h-[450px] w-[550px] flex justify-center items-center flex-col gap-3'>
-        {/* <Link href={"/prochainessorties"}>sss</Link> */}
-        <div class="card">
-        <div class="card__content">
-        <Image className='ease-in-out transition-[2s] rounded-xl' src={carrousel[index]} alt=''></Image>
-        </div>
-        </div>
-        <div className="textretro join gap-3">
-            <Link href={"http://localhost:3000/Games/2"} onClick={() => setIndex(0)}>1</Link>
-            <button onClick={() => setIndex(1)}>2</button>
-            <button onClick={() => setIndex(2)}>3</button>
-            <button onClick={() => setIndex(3)}>4</button>
-            <button onClick={() => setIndex(4)}>5</button>
-        </div>  
+ 
+    <div className='max-w-screen-md mx-auto flex flex-col justify-center items-center gap-3'>
+    <div className="card">
+      <div className="card__content">
+        <Image className='ease-in-out transition-[2s] rounded-xl' src={carrousel[index]} alt='' width={550} height={450} />
+      </div>
     </div>
+    <div className="textretro flex gap-3">
+      <Link href={"http://localhost:3000/Games/2"} onClick={() => setIndex(0)}>1</Link>
+      <Link href={"http://localhost:3000/Games/3"} onClick={() => setIndex(1)}>2</Link>
+      <Link href={"http://localhost:3000/Games/4"} onClick={() => setIndex(2)}>3</Link>
+      <Link href={"http://localhost:3000/Games/5"} onClick={() => setIndex(3)}>4</Link>
+      <Link href={"http://localhost:3000/Games/6"} onClick={() => setIndex(4)}>5</Link>
+    </div>
+    
+    <p className='textretro'>Prochaines sorties</p>
+  </div>
   )
 }

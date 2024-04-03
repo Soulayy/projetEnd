@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar/Navbar"
 import Header from "./component/Header/Header"
 import Footer from "./component/Footer/Footer";
 import Carrousel from "./component/Carrousel/Courrsel"
+import Sealler from  "./component/Sealler/Sealler"
 
 export default function Home() {
   
@@ -11,9 +12,14 @@ export default function Home() {
       <Header></Header>
       <br />
       <Navbar></Navbar>
-      <div className="h-[600px]">
+      <div>
         <br /><br />
         <Carrousel></Carrousel>
+        <br /><br />
+        <div className="flex justify-center items-center textretro text-4xl pb-4">
+        <h1>best-seller</h1>
+        </div>
+        <Sealler></Sealler>
       </div>
       <div>
       </div>

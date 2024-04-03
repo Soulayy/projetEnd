@@ -4,6 +4,7 @@ import GradientH from "./../../../../public/image/HeaderF.png"
 
 
 const Header = () => {
+  
   return (
     <div style={{backgroundImage : `url(${GradientH.src})`}} className="bg-no-repeat h-[100px] w-screen flex justify-center items-center">
         <div className="w-[50%] flex justify-center items-center gap-3">
@@ -17,8 +18,7 @@ const Header = () => {
             <p className='textretro text-3xl text-white italic'>
                 choisissez votre nouveau monde
             </p>
-        </div>
-       
+        </div>   
       </div>
   )
 }
