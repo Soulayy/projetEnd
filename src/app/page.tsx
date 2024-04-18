@@ -19,7 +19,6 @@ export default function Home() {
         <div className="flex justify-center items-center textretro text-4xl pb-4">
         <h1>best-seller</h1>
         </div>
-        <Sealler></Sealler>
       </div>
       <div>
       </div>
